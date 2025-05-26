@@ -1,6 +1,6 @@
-# Grasshopper-Power-BI-Stream
+# Guidance of PBI-Grasshopper Model Generation GUI
 ![](Monash_University_logo.png)
- **40pt**48pt Guidance of PBI-Grasshopper Model Generation GUI
+
 ## Preliminary Work
 This project's functionality is aimed at generating real-time models in Power BI using the UI within Power BI. The method involves first generating data files through Power BI, then using Grasshopper to read these data files, uploading them to the Speckle website, and finally displaying them in Power BI. The plugins used in this project include Speckle and Pancake.
 ### Plugin Setup

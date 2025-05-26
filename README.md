@@ -5,11 +5,10 @@ This project's functionality is aimed at generating real-time models in Power BI
 ### Plugin Setup
 Double-click manager.exe to install Speckle Manager. Then, use the Manager to download the Power BI, Rhino and Grasshopper connectors.
 ![](images/Connection.png)
- Open Grasshopper, open Component Folder here, then drag Pancake.gha into the Component Folder shown in the figure.
+Open Grasshopper, open Component Folder here, then drag Pancake.gha into the Component Folder shown in the figure.
 ![](images/GH1.png)
- Open Power BI, click the three dots in the Visualizations panel, select "Import a visual from a file", and choose Speckle Power BI 3D Visual.pbiviz.
+Open Power BI, click the three dots in the Visualizations panel, select "Import a visual from a file", and choose Speckle Power BI 3D Visual.pbiviz.
 ![](images/PBI1.png)
- fig:enter-label
 ### Path Setup
 After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch Grasshopper, and load the Tunnel_Generation.gh file. In the Import Data group, update the file path to the current location of your file.
 ![](images/GH2.png)

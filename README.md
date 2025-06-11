@@ -28,7 +28,7 @@ After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch G
  
 ![](images/PBIPY.png)
 
- Then, register on the Speckle website (www.speckle.system), create a new project.
+ Then, register on the Speckle website (www.speckle.systems), create a new project.
  
 ![](images/Speckle%20web.png)
 

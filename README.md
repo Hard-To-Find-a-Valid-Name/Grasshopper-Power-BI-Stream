@@ -20,9 +20,11 @@ Open Power BI, click the three dots in the Visualizations panel, select "Import 
 
 ### Path Setup
 
-After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch Grasshopper, and load the Tunnel_Generation.gh file. In the Import Data group, update the file path to the current location of your file.
+After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch Grasshopper, and load the Tunnel_Generation.gh file. In the Import Data group, Create and Bake Lining group, and Property Calculation group, update the file path to the current location of your file.
 
 ![](images/GH2.png)
+![](images/GH3.png)
+![](images/GH4.png)
 
  Open PBI UI.pbix in Power BI, click the blue-bordered area in the bottom-right corner, and update the path to the current file location.
  

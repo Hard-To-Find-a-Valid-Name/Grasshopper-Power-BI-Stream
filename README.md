@@ -42,7 +42,7 @@ After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch G
  
 ![](images/PBITD.png)
 
- Then click on "Data source settings", click "Change source", then change the folder path of the file.
+ Then click on "Data source settings" in "Transform data", click "Change source", then change the folder path of the file.
  
 ![](images/PBITD2.png)
 

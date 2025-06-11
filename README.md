@@ -38,9 +38,13 @@ After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch G
  
 ![](images/ModelURL.png)
 
- Enter the URL in the following two places: Open PBI UI.pbix, click on "Transform data", and paste your URL into the indicated field in figure below.
+ Enter the URL in the following two places: Open PBI UI.pbix, click on "Transform data", and paste your URL into the indicated field in figure below. 
  
 ![](images/PBITD.png)
+
+ Then click on "Data source settings", click "Change source", then change the folder path of the file.
+ 
+![](images/PBITD2.png)
 
  Open Tunnel_Lining.3dm, and open Tunnel_Generation.gh. Locate the "export data" group, and paste the URL into the designated field.
  

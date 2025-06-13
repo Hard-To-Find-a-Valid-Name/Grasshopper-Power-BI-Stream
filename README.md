@@ -4,7 +4,7 @@
 
 The embodied carbon assessment follows EN 15978 for system boundary Module A1-A5. In "Tunnel Emission.pbix", please follow each tab from left to right to calculate your TBM tunnel's embodied carbon. The detailed methodology can be referred to the "Sustainability of Underground Infrastructure" Part 1 and Part 3. 
 
-![](images/Power BI.png)
+![](images/PowerBI.png)
 
 ## Optimisation for low carbon tunnel support 
 

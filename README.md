@@ -4,6 +4,8 @@
 
 The embodied carbon assessment follows EN 15978 for system boundary Module A1-A5. In "Tunnel Emission.pbix", please follow each tab from left to right to calculate your TBM tunnel's embodied carbon. The detailed methodology can be referred to the "Sustainability of Underground Infrastructure" Part 1 and Part 3. 
 
+![](images/Power BI.png)
+
 ## Optimisation for low carbon tunnel support 
 
 The interface provides an example of dealing with conflicting objectives between low carbon design and traditional tunnel analysis, where tunnel support safety may be compromised by introducing carbon reduction measures (e.g., thinner lining with less strength). The optimisation algorithm searches for a series of Pareto optimal solutions, where a objective cannot be further improved without compromising other objectives. 

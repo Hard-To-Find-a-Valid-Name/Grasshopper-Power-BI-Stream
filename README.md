@@ -12,6 +12,8 @@ The interface provides an example of dealing with conflicting objectives between
 
 The multi-objective optimisation is conducted for minimising embodied carbon (Module A1-A3) of tunnel lining while maximising the corresponding Factor of Safety (FoS). The embodied carbon of tunnel support is assessed considering concrete strength grade (The corresponding embodied carbon factor of concrete is estimated by linear fitted line, see "Sustainability of Underground Infrastructure" Part 1). The geometric parameters of tunnel diameter, lining thickness, and other geotechnical properties can be input accordingly as shown in the interface. The tunnel support safety is assessed using the Convergence-confinement Methods, please refer to  "Sustainability of Underground Infrastructure" Part 2 for detailed methodology and justification. The failure model for estimating the Ground Reaction Curve and Longitudinal Displacement Profiles can be costomised to fit user's project.  
 
+![](images/opt_interface.png)
+
 ### Interface setup
 
 Open folder "Tunnel Emission and Optimisation 1.0.0", please ensure that Python has been added to your system's environment variables (you can do this by running the Python installer). 
@@ -19,7 +21,6 @@ Open folder "Tunnel Emission and Optimisation 1.0.0", please ensure that Python 
 Before using the program, run setup_environment_and_dependencies.bat. 
 
 Once completed, run Start.bat to begin.
-
 
 ## Grasshopper-Power-BI-Stream
 

@@ -14,6 +14,7 @@ The multi-objective optimisation is conducted for minimising embodied carbon (Mo
 
 ![](images/opt_interface.png)
 
+
 ### Interface setup
 
 Open folder "Tunnel Emission and Optimisation 1.0.0", please ensure that Python has been added to your system's environment variables (you can do this by running the Python installer). 
@@ -28,25 +29,26 @@ This project's functionality is aimed at generating real-time models in Power BI
 
 ### Plugin Setup
 
-Double-click manager.exe to install Speckle Manager. Then, use the Manager to download the Power BI, Rhino and Grasshopper connectors.
+First, install grasshopper and Power BI connector at https://speckle.systems/connectors . Installing speckle connectors for Power BI and Grasshopper.
 
-![](images/Connection.png)
+![](Next Gen Connectors.png)
+![](GSc.png)
+![](PBIc.png)
 
 Open Grasshopper, open Component Folder here, then drag Pancake.gha into the Component Folder shown in the figure.
 
 ![](images/GH1.png)
 
-Open Power BI, click the three dots in the Visualizations panel, select "Import a visual from a file", and choose Speckle Power BI 3D Visual.pbiviz.
+Open Power BI, click the three dots in the Visualizations panel, select "Import a visual from a file", and choose Speckle Power BI 3D Visual.pbiviz. This file can be found at C:\Users\<Your User Name>\Documents\Power BI Desktop\Custom Visuals after installing Power BI connector.
 
 ![](images/PBI1.png)
 
 ### Path Setup
 
-After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch Grasshopper, and load the Tunnel_Generation.gh file. In the Import Data group, Create and Bake Lining group, and Property Calculation group, update the file path to the current location of your file.
+After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch Grasshopper, and load the Tunnel_Generation.gh file, update the file path to the current location of your file.
 
-![](images/GH2.png)
-![](images/GH3.png)
-![](images/GH4.png)
+![](Path1.png)
+
 
  Open PBI UI.pbix in Power BI, click the blue-bordered area in the bottom-right corner, and update the path to the current file location.
  
@@ -64,15 +66,19 @@ After installing the plugins, open the Tunnel_Lining.3dm file in Rhino, launch G
  
 ![](images/PBITD.png)
 
- Then click on "Data source settings" in "Transform data", click "Change source", then change the folder path of the file.
+Then click on "Data source settings" in "Transform data", click "Change source", then change the folder path of the file.
  
 ![](images/PBITD2.png)
 
- Open Tunnel_Lining.3dm, and open Tunnel_Generation.gh. Locate the "export data" group, and paste the URL into the designated field.
- 
-![](images/Rhino%20Web.png)
+Next, click "file", "Options and settings", and Data source settings, click the speckle model website, click "Edit Permission", log in your own speckle account.
 
- With this, the setup is complete and you’re ready to start using the system.
+![](PBIpath.png)
+
+Open Tunnel_Lining.3dm, and open Tunnel_Generation.gh, paste the URL into the designated field.
+ 
+![](Path2.png)
+
+With this, the setup is complete and you’re ready to start using the system.
  
 ## Steps for Use
 

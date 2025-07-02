@@ -31,7 +31,7 @@ This project's functionality is aimed at generating real-time models in Power BI
 
 First, install grasshopper and Power BI connector at https://speckle.systems/connectors . Installing speckle connectors for Power BI and Grasshopper.
 
-![](Next Gen Connectors.png)
+![](NextGenConnectors.png)
 ![](GSc.png)
 ![](PBIc.png)
 

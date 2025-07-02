@@ -31,9 +31,9 @@ This project's functionality is aimed at generating real-time models in Power BI
 
 First, install grasshopper and Power BI connector at https://speckle.systems/connectors . Installing speckle connectors for Power BI and Grasshopper.
 
-![](NextGenConnectors.png)
-![](GSc.png)
-![](PBIc.png)
+![](images/NextGenConnectors.png)
+![](images/GSc.png)
+![](images/PBIc.png)
 
 Open Grasshopper, open Component Folder here, then drag Pancake.gha into the Component Folder shown in the figure.
 
